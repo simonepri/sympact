@@ -1,0 +1,17 @@
+sudo: false
+language: node_js
+node_js:
+  - '8'
+  - '6'
+os:
+  - linux
+  - osx
+cache:
+  directories:
+  - node_modules
+script:
+  - node --version
+  - npm --version
+  - npm test
+after_test:
+  - npx codecov
