@@ -72,10 +72,11 @@
     "stats-lite": "^2.1.0",
     "systeminformation": "^3.37.5",
     "tempy": "^0.2.1",
-    "update-notifier": "^2.3.0",
+    "update-notifier": "^2.3.0"
   },
   "devDependencies": {
     "ava": "*",
+    "joi": "^13.1.2",
     "np": "*",
     "npm-check": "*",
     "nyc": "*",
