@@ -1,6 +1,6 @@
 {
   "name": "sympact",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An easy way to calculate the 'impact' of running a task in Node.JS",
   "license": "MIT",
   "homepage": "https://github.com/simonepri/sympact#readme",
