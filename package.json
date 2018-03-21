@@ -68,9 +68,9 @@
     "log-symbols": "^2.2.0",
     "meow": "^4.0.0",
     "pidtree": "^0.3.0",
-    "pidusage": "^2.0.5",
+    "pidusage": "^2.0.6",
     "stats-lite": "^2.1.0",
-    "systeminformation": "^3.37.5",
+    "systeminformation": "^3.37.7",
     "tempy": "^0.2.1",
     "update-notifier": "^2.3.0"
   },
