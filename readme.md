@@ -127,9 +127,24 @@ display the report.
 ```js
   npx sympact "console.log('Hello World')"
 ```
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/>
+
+```js
+  npx sympact "
+    const {spawn} = require('child_process');
+    let childno = 10;
+    let childs = [];
+    for (let i = 0; i < childno; i++) {
+      childs.push(spawn('node', ['-e', 'setInterval(()=>{let c=10e3;while(c--);},10)']));
+    }
+    let c = 10e6;
+    let m = {};
+    while (c--)  m[c] = c;
+    for (let i = 0; i < childno; i++) {
+      childs[i].kill();
+    }
+  "
+```
+<br/><br/><br/>
 
 ## Report object
 
