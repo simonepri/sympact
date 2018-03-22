@@ -78,7 +78,7 @@ Has it *saved you time*?
 Or maybe you simply *like it*?  
 If so, [show your appreciation with a Star ⭐️][start].
 
-## How it works?
+## How it works
 
 sympact spawns a separate process and runs your script in an isolated
 node process and then collects statistics about the system's resource used by
