@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://github.com/simonepri/sympact/raw/master/media/sympact.png" alt="sympact" width="200"/>
+  <a href="https://github.com/simonepri/sympact">
+    <img src="https://github.com/simonepri/sympact/raw/master/media/sympact.png" alt="sympact" width="150"/>
+  </a>
 </p>
 <p align="center">
   <!-- CI - TravisCI -->
