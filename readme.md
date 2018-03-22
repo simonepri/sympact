@@ -125,6 +125,9 @@ display the report.
 ```js
   npx sympact "console.log('Hello World')"
 ```
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/>
 
 ## Report object
 
