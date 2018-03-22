@@ -1,6 +1,6 @@
-<h1 align="center">
-  <b>sympact</b>
-</h1>
+<p align="center">
+  <img src="https://github.com/simonepri/sympact/raw/master/media/sympact.gif" alt="sympact" width="200"/>
+</p>
 <p align="center">
   <!-- CI - TravisCI -->
   <a href="https://travis-ci.org/simonepri/sympact">
