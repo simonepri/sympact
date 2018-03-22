@@ -22,6 +22,7 @@ const cli = meow(
     --raw                      Show the report as raw object instead of using
                                the GUI.
     --interval <number>        The sampling rate in milliseconds.
+    --interval <number>        The sampling rate in milliseconds.
 
   Examples
     $ impact "console.log('Hello World')"
@@ -29,8 +30,9 @@ const cli = meow(
 `,
   {
     flags: {
-      raw: {type: 'boolean'},
-      interval: {type: 'number'},
+      raw: {type: 'boolean', default: false},
+      interval: {type: 'number', default: 125},
+      cwd: {type: 'string', default: process.cwd()},
     },
   }
 );
@@ -43,7 +45,10 @@ Promise.resolve()
     if (cli.input.length !== 1) {
       cli.showHelp(0);
     }
-    return impact(cli.input[0], cli.flags.interval);
+    return impact(cli.input[0], {
+      interval: cli.flags.interval,
+      cwd: cli.flags.cwd,
+    });
   })
   .then(async report => {
     if (cli.flags.raw) {

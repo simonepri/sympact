@@ -128,6 +128,7 @@ display the report.
   npx sympact "console.log('Hello World')"
 ```
 
+You can even require other files.
 ```bash
   npx sympact "
     const {spawn} = require('child_process');
@@ -144,7 +145,7 @@ display the report.
     }
   "
 ```
-<br/><br/><br/>
+<br/><br/>
 
 ## Report object
 
