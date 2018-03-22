@@ -117,14 +117,14 @@ console.log(report.stats.memory.mean);
 
 ## CLI
 
+<img src="https://github.com/simonepri/sympact/raw/master/media/cli.gif" alt="sympact CLI" width="475" align="right"/>
+
 To make it more usable a CLI is bundled with the package allowing you to nicely
 display the report.
 
 ```js
   npx sympact "console.log('Hello World')"
 ```
-
-<img src="https://github.com/simonepri/sympact/raw/master/media/cli.gif" alt="sympact CLI" />
 
 ## Report object
 
