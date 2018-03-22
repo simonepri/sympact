@@ -124,11 +124,11 @@ console.log(report.stats.memory.mean);
 To make it more usable a CLI is bundled with the package allowing you to nicely
 display the report.
 
-```js
+```bash
   npx sympact "console.log('Hello World')"
 ```
 
-```js
+```bash
   npx sympact "
     const {spawn} = require('child_process');
     let childno = 10;
