@@ -87,7 +87,7 @@ your script.
 The data are collected using [pidusage][gh:pidusage] in combination with
 [pidtree][gh:pidtree].  
 **The main difference between other projects is that sympact will also
-"profile" process spawned by your script.**
+"profile" processes spawned by your script or by any of its children.**
 
 Finally a report of the samples taken is computed and returned to you.
 
