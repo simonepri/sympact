@@ -247,12 +247,12 @@ See also the list of [contributors][contributors] who participated in this proje
 This project is licensed under the MIT License - see the [license][license] file for details.
 
 <!-- Links -->
-[start]: https://github.com/simonepri/phc-format#start-of-content
-[new issue]: https://github.com/simonepri/phc-format/issues/new
-[contributors]: https://github.com/simonepri/phc-format/contributors
+[start]: https://github.com/simonepri/sympact#start-of-content
+[new issue]: https://github.com/simonepri/sympact/issues/new
+[contributors]: https://github.com/simonepri/sympact/contributors
 
-[license]: https://github.com/simonepri/phc-format/tree/master/license
-[contributing]: https://github.com/simonepri/phc-format/tree/master/.github/contributing.md
+[license]: https://github.com/simonepri/sympact/tree/master/license
+[contributing]: https://github.com/simonepri/sympact/tree/master/.github/contributing.md
 
 [github:simonepri]: https://github.com/simonepri
 [twitter:simoneprimarosa]: http://twitter.com/intent/user?screen_name=simoneprimarosa
