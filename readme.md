@@ -107,7 +107,7 @@ const report = await impact(`
   let c = 10e7;
   while (c--) r = Math.pow(r, r);
   return r;
-`, 125); // 125 ms of sampling rate
+`, {interval: 125}); // 125 ms of sampling rate
 
 console.log(report.times.execution.end - report.times.execution.start);
 // => 2700 ms
