@@ -70,8 +70,7 @@
 
 ## Synopsis
 
-Runs a script and profiles its execution time, CPU usage, and memory usage
-returning an average of all results.
+Sympact runs a script and profiles its execution time, CPU usage, and memory usage. Sympact then returns an execution report containing the averages of the results.
 
 Do you believe that this is *useful*?
 Has it *saved you time*?
@@ -121,8 +120,7 @@ console.log(report.stats.memory.mean);
 
 <img src="https://github.com/simonepri/sympact/raw/master/media/cli.gif" alt="sympact CLI" width="475" align="right"/>
 
-To make it more usable a CLI is bundled with the package allowing you to nicely
-display the report.
+To make it more usable, a CLI is bundled with the package allowing for an aesthetically pleasing report.
 
 ```bash
   npx sympact "console.log('Hello World')"
