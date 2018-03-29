@@ -22,7 +22,6 @@ const cli = meow(
     --raw                      Show the report as raw object instead of using
                                the GUI.
     --interval <number>        The sampling rate in milliseconds.
-    --interval <number>        The sampling rate in milliseconds.
 
   Examples
     $ impact "console.log('Hello World')"
