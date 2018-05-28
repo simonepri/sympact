@@ -15,3 +15,5 @@ script:
   - npm test
 after_test:
   - npx codecov
+git:
+  depth: 5
