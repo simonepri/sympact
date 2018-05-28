@@ -17,14 +17,14 @@ const schema = {
     end: joi
       .number()
       .integer()
-      .min(0),
+      .min(0)
   }),
   avarage: joi.object().keys({
     mean: joi.number().min(0),
     median: joi.number().min(0),
     stdev: joi.number().min(0),
     max: joi.number().min(0),
-    min: joi.number().min(0),
+    min: joi.number().min(0)
   }),
   sample: joi.object().keys({
     cpu: joi.number().min(0),
@@ -58,10 +58,10 @@ const schema = {
         timestamp: joi
           .number()
           .integer()
-          .min(0),
+          .min(0)
       })
-    ),
-  }),
+    )
+  })
 };
 
 test('should monitor pid without childs correctly', async t => {

@@ -31,8 +31,8 @@ const cli = meow(
     flags: {
       raw: {type: 'boolean', default: false},
       interval: {type: 'number', default: 125},
-      cwd: {type: 'string', default: process.cwd()},
-    },
+      cwd: {type: 'string', default: process.cwd()}
+    }
   }
 );
 
@@ -46,7 +46,7 @@ Promise.resolve()
     }
     return impact(cli.input[0], {
       interval: cli.flags.interval,
-      cwd: cli.flags.cwd,
+      cwd: cli.flags.cwd
     });
   })
   .then(async report => {
