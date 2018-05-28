@@ -62,22 +62,22 @@
   },
   "dependencies": {
     "caller": "^1.0.1",
-    "chalk": "^2.3.2",
+    "chalk": "^2.4.1",
     "easy-table": "^1.1.1",
-    "fs-extra": "^5.0.0",
+    "fs-extra": "^6.0.1",
     "log-symbols": "^2.2.0",
-    "meow": "^4.0.0",
+    "meow": "^5.0.0",
     "pidtree": "^0.3.0",
     "pidusage": "^2.0.6",
-    "stats-lite": "^2.1.0",
-    "systeminformation": "^3.37.7",
+    "stats-lite": "^2.1.1",
+    "systeminformation": "^3.41.3",
     "tempy": "^0.2.1",
-    "update-notifier": "^2.3.0"
+    "update-notifier": "^2.5.0"
   },
   "devDependencies": {
     "ava": "*",
-    "joi": "^13.1.2",
-    "np": "*",
+    "joi": "^13.3.0",
+    "np": "^3.0.1",
     "npm-check": "*",
     "nyc": "*",
     "xo": "*"
