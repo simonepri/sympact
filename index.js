@@ -19,19 +19,19 @@ const Profiler = require('./lib/profiler.js');
  */
 async function sympact(code, options) {
   if (typeof code !== 'string') {
-    throw new TypeError("The 'code' paramater must a string'");
+    throw new TypeError("The 'code' parameter must a string'");
   }
   if (typeof options === 'undefined') {
     options = {};
   }
   if (typeof options !== 'object') {
-    throw new TypeError("The 'options' paramater must an object'");
+    throw new TypeError("The 'options' parameter must an object'");
   }
   const interval = options.interval || 125;
   const cwd = options.cwd || path.dirname(caller());
 
   if (interval < 1) {
-    throw new TypeError("The 'interval' paramater must be greater than 0'");
+    throw new TypeError("The 'interval' parameter must be greater than 0'");
   }
 
   return new Promise((resolve, reject) => {
